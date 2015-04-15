@@ -1,0 +1,5 @@
+AC_PREREQ(2.52)
+AC_INIT(hola-piñata, 0.1)
+AM_INIT_AUTOMAKE([1.13])
+AC_OUTPUT(Makefile)
+
