@@ -1,0 +1,13 @@
+AC_PREREQ(2.52)
+AC_INIT(hola-piñata, 0.1)
+
+AC_CONFIG_HEADERS(config.h)
+
+AM_INIT_AUTOMAKE([1.13])
+
+AC_PROG_CC
+AC_OUTPUT([
+		   Makefile
+		   src/Makefile
+])
+
